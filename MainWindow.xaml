@@ -6,7 +6,24 @@
         xmlns:local="clr-namespace:SampleProject"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <TextBlock Text='Typography'
+                   Style='{StaticResource h1}' />
+        <TextBlock Text='Typography'
+                   Style='{StaticResource h2}' />
+        <TextBlock Text='Typography'
+                   Style='{StaticResource h3}' />
+        <TextBlock Text='Typography'
+                   Style='{StaticResource h4}' />
+        <TextBlock Text='Typography'
+                   Style='{StaticResource h5}' />
+        <TextBlock Text='Typography'
+                   Style='{StaticResource h6}' />
+        <TextBlock Text='Typography'
+                   Style='{StaticResource Title}' />
+        <TextBlock Text='Typography'
+                   Style='{StaticResource Body}' />
+        <TextBlock Text='Typography'
+                   Style='{StaticResource Caption}'/>
+    </StackPanel>
 </Window>

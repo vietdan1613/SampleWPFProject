@@ -1,0 +1,61 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="WhiteColor">#FFFFFF</Color>
+    <SolidColorBrush x:Key="WhiteBrush"
+                     Color="{StaticResource WhiteColor}" />
+    
+    <Color x:Key="BlackColor">#000000</Color>
+    <SolidColorBrush x:Key="BlackBrush"
+                     Color="{StaticResource BlackColor}" />
+    <SolidColorBrush x:Key="TextPrimaryBrush"
+                     Color="{StaticResource BlackColor}"
+                     Opacity='0.87'/>
+    <SolidColorBrush x:Key="TextSecondaryBrush"
+                     Color="{StaticResource BlackColor}"
+                     Opacity='0.6'/>
+    <SolidColorBrush x:Key="TextDisabledBrush"
+                     Color="{StaticResource BlackColor}"
+                     Opacity='0.38' />
+    
+    <Color x:Key="PrimaryMainColor">#2196F3</Color>
+    <SolidColorBrush x:Key="PrimaryMainBrush"
+                     Color="{StaticResource PrimaryMainColor}" />
+    <Color x:Key="PrimaryDarkColor">#1E88E5</Color>
+    <SolidColorBrush x:Key="PrimaryDarkBrush"
+                     Color="{StaticResource PrimaryDarkColor}" />
+    <Color x:Key="PrimaryLightColor">#42A5F5</Color>
+    <SolidColorBrush x:Key="PrimaryLightBrush"
+                     Color="{StaticResource PrimaryLightColor}" />
+
+    <Color x:Key="ErrorMainColor">#D32F2F</Color>
+    <SolidColorBrush x:Key="ErrorMainBrush"
+                     Color="{StaticResource ErrorMainColor}" />
+    <Color x:Key="ErrorDarkColor">#C62828</Color>
+    <SolidColorBrush x:Key="ErrorDarkBrush"
+                     Color="{StaticResource ErrorDarkColor}" />
+    <Color x:Key="ErrorLightColor">#EF5350</Color>
+    <SolidColorBrush x:Key="ErrorLightBrush"
+                     Color="{StaticResource ErrorLightColor}" />
+    <Color x:Key="ErrorContrastColor">#FFFFFF</Color>
+  
+    <Color x:Key="WarningMainColor">#EF6C00</Color>
+    <SolidColorBrush x:Key="WarningMainBrush"
+                     Color="{StaticResource WarningMainColor}" />
+    <Color x:Key="WarningDarkColor">#E65100</Color>
+    <SolidColorBrush x:Key="WarningDarkBrush"
+                     Color="{StaticResource WarningDarkColor}" />
+    <Color x:Key="WarningLightColor">#FF9800</Color>
+    <SolidColorBrush x:Key="WarningLightBrush"
+                     Color="{StaticResource WarningLightColor}" />
+
+    <Color x:Key="SuccessMainColor">#2E7D32</Color>
+    <SolidColorBrush x:Key="SuccessMainBrush"
+                     Color="{StaticResource SuccessMainColor}" />
+    <Color x:Key="SuccessDarkColor">#1B5E20</Color>
+    <SolidColorBrush x:Key="SuccessDarkBrush"
+                     Color="{StaticResource SuccessDarkColor}" />
+    <Color x:Key="SuccessLightColor">#4CAF50</Color>
+    <SolidColorBrush x:Key="SuccessLightBrush"
+                     Color="{StaticResource SuccessLightColor}" />
+</ResourceDictionary>

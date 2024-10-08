@@ -4,6 +4,20 @@
              xmlns:local="clr-namespace:SampleProject"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--Add style here-->
+                <ResourceDictionary Source="/Resources/Styles/Colors.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Resources/Styles/TextBlock.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Resources/Styles/Lable.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Resources/Styles/Button.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Resources/Styles/CheckBox.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Resources/Styles/ComboBox.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Resources/Styles/DataGrid.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Resources/Styles/RadioButton.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Resources/Styles/Slider.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Resources/Styles/TextBox.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
